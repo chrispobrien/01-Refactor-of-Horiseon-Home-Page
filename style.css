@@ -1,19 +1,35 @@
-.section {
+/* Universal selector - selects all HTML elements on page */
+* {
+  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+
+/* Element sector to apply to body of page */
+body {
   background-color: lemonchiffon;
 }
 
-.headers {
-  color: darkblue;
+/* Element selector to apply to all header and footer elements */
+header,
+footer {
+  width: 100%;
+  height: 100px;
+  line-height: 100px;
+  color: #f0ead6;
+  background-color: #191970;
 }
 
-#email {
-  background-color: goldenrod;
+/* Element selector to apply to all figure elements present on page */
+figure {
+  width: 200px;
+  background-color: #f0ead6;
 }
 
-#github {
-  background-color: lightsteelblue;
+/* Class selector, used as class="highlighted-text" within tag */
+.highlighted-text {
+  font-weight: bolder;
 }
 
-#portfolio {
-  background-color: darkorange;
+/* id selector, should be single id="contact-section" tag*/
+#contact-section {
+  background-color: #f0ead6;
 }
