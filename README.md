@@ -29,11 +29,9 @@ WHEN I view the title element
 THEN I find a concise, descriptive title
 ```
 
-For this homework exercise, accessibility standards are mainly adding alt text to images. I also changed a background image to a foreground image.
-
-I changed all div elements into semantic html elements.
-
-I used semantic html elements in a logical manner, following the structure of the page.
+* For this homework exercise, accessibility standards are mainly adding alt text to images. I also changed a background image to a foreground image.
+* I changed all div elements into semantic html elements.
+* I used semantic html elements in a logical manner, following the structure of the page.
 
 The switch from div elements to semantic elements allowed me to simplify the stylesheet and make it more understandable to the next coder.
 
@@ -43,13 +41,17 @@ Using Google Chrome's Lighthouse developer tool I realized the jpeg images were 
 
 Using git, issue the command:
 
+```sh
 git clone https://github.com/chrispobrien/chrispobrien.github.io.git
+```
 
 This will create the folder chrispobrien.github.io within which you will find index.html, this README.md file, and an assets folder containing a css folder for one stylesheet, style.css, and an images folder containing the images that appear on this page.
 
 ## Usage
 
 Move or copy the contents of the folder chrispobrien.github.io into your web server's folder, for example in Microsoft IIS [c:\inetpub\wwwroot\] or (recommended) a subfolder like [c:\inetpub\wwwroot\week01\].
+
+[![Horiseon Home Page Screen Shot][screenshot]](assets/images/screenshot.jpg)
 
 ## Credits
 
@@ -60,3 +62,5 @@ This is a refactored copy of the Week 1 homework challenge. Columbia Bootcamp/Tr
 © 2022 Trilogy Education Services, LLC, a 2U, Inc. brand. Confidential and Proprietary. All Rights Reserved.
 
 
+<!-- MARKDOWN LINKS & IMAGES -->
+[screenshot]: ./assets/images/screenshot.jpg
