@@ -1,13 +1,18 @@
+/* Universal selector */
 * {
   box-sizing: border-box;
   padding: 0;
   margin: 0;
 }
 
+/* ** Element selectors ** */
+
+/* Body of page */
 body {
   background-color: #d9dcd6;
 }
 
+/* Header bar */
 header {
   padding: 20px;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
@@ -16,15 +21,18 @@ header {
   color: #ffffff;
 }
 
+/* Header bar title */
 header h1 {
   display: inline-block;
   font-size: 48px;
 }
 
+/* A little color to make the 'seo' in Horiseon stand out */
 header h1 .seo {
   color: #d9dcd6;
 }
 
+/* Nav bar - intended to be alongside the title floating right*/
 header nav {
   padding-top: 15px;
   margin-right: 20px;
@@ -33,24 +41,31 @@ header nav {
   font-size: 20px;
 }
 
+/* Nav list */
 header nav ul {
   list-style-type: none;
 }
 
+/* Nav list item */
 header nav ul li {
   display: inline-block;
   margin-left: 25px;
 }
 
+/* Hyperlinks in the nav bar */
 a {
   color: #ffffff;
   text-decoration: none;
 }
 
+/* Paragraph text */
 p {
   font-size: 16px;
 }
 
+/* ** ID Selectors ** */
+
+/* Banner */
 #hero {
   height: 800px;
   width: 100%;
@@ -59,14 +74,15 @@ p {
   object-position: center;
 }
 
-
-
+/* Main content section, note width 75% */
 #content {
   width: 75%;
   display: inline-block;
   margin-left: 20px;
 }
 
+/* Articles that make up the main content section
+  Note padding: 50px to override the universal padding of 0 */
 #content article {
   margin-bottom: 20px;
   padding: 50px;
@@ -76,25 +92,34 @@ p {
   color: #ffffff;
 }
 
+/* One image within each article */
 #content article img {
   max-height: 200px;
 }
 
+/* Article header */
 #content article h2 {
   margin-bottom: 20px;
   font-size: 36px;
 }
 
+/* ** Class selectors ** */
+
+/* Float left with a right margin to place the image left of the text and provide some spacing from the text */
 .float-left {
   float: left;
   margin-right: 25px;
 }
 
+/* Float right is the same but places the image on the left */
 .float-right {
   float: right;
   margin-left: 25px;
 }
 
+/* ** (more) ID Selectors ** */
+
+/* This benefits section appears to the right of the content section */
 #benefits {
   margin-right: 20px;
   padding: 20px;
@@ -106,22 +131,26 @@ p {
   background-color: #2589bd;
 }
 
+/* Articles inside the benefits section */
 #benefits article {
   margin-bottom: 32px;
   color: #ffffff;
 }
 
+/* Headers within the benefits articles */
 #benefits article h3 {
   margin-bottom: 10px;
   text-align: center;
 }
 
+/* Icons within benefits articles */
 #benefits article img {
   display: block;
   margin: 10px auto;
   max-width: 150px;
 }
 
+/* Footer */
 footer {
   padding: 30px;
   clear: both;
@@ -130,6 +159,7 @@ footer {
   text-align: center;
 }
 
+/* Title of footer */
 footer h2 {
   font-size: 20px;
 }
